@@ -1,0 +1,13 @@
+         377579 function calls (374569 primitive calls) in 3.287 seconds
+
+   Ordered by: cumulative time
+   List reduced from 563 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    3.287    3.287 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:65(main)
+        1    0.000    0.000    2.722    2.722 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:11(get_html)
+        1    0.000    0.000    2.715    2.715 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_request_methods.py:69(request)
+        1    0.000    0.000    2.715    2.715 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_request_methods.py:147(request_encode_url)
+        1    0.000    0.000    2.715    2.715 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:409(urlopen)
+
+

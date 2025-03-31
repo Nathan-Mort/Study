@@ -1,0 +1,570 @@
+         380769 function calls (377768 primitive calls) in 3.190 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    3.190    3.190 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:63(main)
+        1    0.000    0.000    2.647    2.647 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:11(get_html)
+        1    0.000    0.000    2.640    2.640 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_request_methods.py:69(request)
+        1    0.000    0.000    2.640    2.640 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_request_methods.py:147(request_encode_url)
+        1    0.000    0.000    2.640    2.640 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:409(urlopen)
+        1    0.000    0.000    2.640    2.640 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:592(urlopen)
+        1    0.000    0.000    2.639    2.639 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:377(_make_request)
+        1    0.000    0.000    2.369    2.369 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:485(getresponse)
+      897    0.003    0.000    2.365    0.003 /usr/lib/python3.12/socket.py:693(readinto)
+      897    0.004    0.000    2.359    0.003 /usr/lib/python3.12/ssl.py:1237(recv_into)
+      897    0.002    0.000    2.354    0.003 /usr/lib/python3.12/ssl.py:1095(read)
+      897    2.352    0.003    2.352    0.003 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    1.309    1.309 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:577(__init__)
+        1    0.000    0.000    1.309    1.309 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:916(read)
+        1    0.000    0.000    1.309    1.309 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:864(_raw_read)
+        1    0.000    0.000    1.309    1.309 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:807(_fp_read)
+        1    0.000    0.000    1.309    1.309 /usr/lib/python3.12/http/client.py:463(read)
+        4    0.002    0.001    1.309    0.327 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    1.309    1.309 /usr/lib/python3.12/http/client.py:633(_safe_read)
+        1    0.000    0.000    1.060    1.060 /usr/lib/python3.12/http/client.py:1384(getresponse)
+        1    0.000    0.000    1.060    1.060 /usr/lib/python3.12/http/client.py:324(begin)
+       26    0.000    0.000    1.058    0.041 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.930    0.930 /usr/lib/python3.12/http/client.py:291(_read_status)
+        1    0.000    0.000    0.542    0.542 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:25(get_financial_data)
+        1    0.000    0.000    0.459    0.459 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:122(__init__)
+        1    0.000    0.000    0.459    0.459 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:471(_feed)
+        1    0.000    0.000    0.459    0.459 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:372(feed)
+        1    0.000    0.000    0.459    0.459 /usr/lib/python3.12/html/parser.py:104(feed)
+        2    0.039    0.020    0.459    0.230 /usr/lib/python3.12/html/parser.py:134(goahead)
+     2703    0.055    0.000    0.276    0.000 /usr/lib/python3.12/html/parser.py:301(parse_starttag)
+        1    0.000    0.000    0.269    0.269 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:1085(_validate_conn)
+        1    0.000    0.000    0.269    0.269 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:669(connect)
+        1    0.000    0.000    0.142    0.142 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:846(_ssl_wrap_socket_and_match_hostname)
+     2703    0.014    0.000    0.134    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:105(handle_starttag)
+        1    0.000    0.000    0.130    0.130 /usr/lib/python3.12/http/client.py:245(parse_headers)
+        1    0.000    0.000    0.128    0.128 /usr/lib/python3.12/http/client.py:213(_read_headers)
+        1    0.000    0.000    0.127    0.127 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:192(_new_conn)
+        1    0.000    0.000    0.127    0.127 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/connection.py:27(create_connection)
+     2703    0.018    0.000    0.114    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:722(handle_starttag)
+     2558    0.015    0.000    0.090    0.000 /usr/lib/python3.12/html/parser.py:379(parse_endtag)
+       34    0.000    0.000    0.082    0.002 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2013(find_all)
+       34    0.007    0.000    0.082    0.002 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:792(_find_all)
+        1    0.000    0.000    0.079    0.079 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:390(ssl_wrap_socket)
+        1    0.000    0.000    0.079    0.079 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:488(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.079    0.079 /usr/lib/python3.12/ssl.py:449(wrap_socket)
+        1    0.000    0.000    0.079    0.079 /usr/lib/python3.12/ssl.py:956(_create)
+        1    0.000    0.000    0.079    0.079 /usr/lib/python3.12/ssl.py:1313(do_handshake)
+        1    0.079    0.079    0.079    0.079 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+     5551    0.010    0.000    0.067    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2303(search)
+     2704    0.008    0.000    0.066    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:160(handle_endtag)
+     5644    0.016    0.000    0.064    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:586(endData)
+        1    0.000    0.000    0.063    0.063 /usr/lib/python3.12/socket.py:946(getaddrinfo)
+        1    0.063    0.063    0.063    0.063 {built-in method _socket.getaddrinfo}
+        1    0.061    0.061    0.061    0.061 {method 'connect' of '_socket.socket' objects}
+        1    0.000    0.000    0.060    0.060 /usr/lib/python3.12/ssl.py:529(load_default_certs)
+        1    0.060    0.060    0.060    0.060 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+     2702    0.006    0.000    0.057    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:763(handle_endtag)
+     2704    0.015    0.000    0.055    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1199(__init__)
+     2798    0.009    0.000    0.051    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2240(search_tag)
+    22175    0.049    0.000    0.049    0.000 {method 'match' of 're.Pattern' objects}
+4531/1584    0.017    0.000    0.037    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2336(_matches)
+     2586    0.021    0.000    0.031    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:295(_replace_cdata_list_attribute_values)
+59825/59821    0.021    0.000    0.025    0.000 {built-in method builtins.isinstance}
+     2689    0.009    0.000    0.023    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:620(object_was_parsed)
+     2703    0.006    0.000    0.023    0.000 /usr/lib/python3.12/html/parser.py:345(check_for_whole_start_tag)
+     2702    0.010    0.000    0.020    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:688(_popToTag)
+     2689    0.007    0.000    0.019    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:943(__new__)
+    10791    0.010    0.000    0.019    0.000 /usr/lib/python3.12/_markupbase.py:44(updatepos)
+     8082    0.017    0.000    0.017    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:156(setup)
+     5908    0.003    0.000    0.015    0.000 /usr/lib/python3.12/html/__init__.py:122(unescape)
+      417    0.004    0.000    0.013    0.000 {method 'sub' of 're.Pattern' objects}
+    13299    0.012    0.000    0.012    0.000 {method 'group' of 're.Match' objects}
+     8081    0.012    0.000    0.012    0.000 {method 'search' of 're.Pattern' objects}
+     2704    0.009    0.000    0.011    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:572(pushTag)
+     1948    0.006    0.000    0.009    0.000 /usr/lib/python3.12/html/__init__.py:91(_replace_charref)
+     7982    0.008    0.000    0.008    0.000 {method 'count' of 'str' objects}
+     2707    0.008    0.000    0.008    0.000 {built-in method __new__ of type object at 0xa43b40}
+     2703    0.006    0.000    0.008    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:558(popTag)
+    14235    0.007    0.000    0.007    0.000 {method 'get' of 'dict' objects}
+    14158    0.007    0.000    0.007    0.000 {method 'lower' of 'str' objects}
+    17395    0.007    0.000    0.007    0.000 {method 'append' of 'list' objects}
+     5556    0.003    0.000    0.006    0.000 {built-in method builtins.next}
+       93    0.006    0.000    0.006    0.000 {method 'decode' of 'bytes' objects}
+     2598    0.003    0.000    0.006    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:178(handle_data)
+    14172    0.006    0.000    0.006    0.000 {method 'end' of 're.Match' objects}
+       32    0.000    0.000    0.006    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1987(find)
+    13029    0.006    0.000    0.006    0.000 {built-in method builtins.hasattr}
+     8338    0.005    0.000    0.005    0.000 {method 'startswith' of 'str' objects}
+     1425    0.004    0.000    0.005    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:648(_linkage_fixer)
+     4630    0.002    0.000    0.005    0.000 <frozen abc>:117(__instancecheck__)
+     2169    0.004    0.000    0.004    0.000 {method 'findall' of 're.Pattern' objects}
+      118    0.001    0.000    0.004    0.000 /usr/lib/python3.12/_markupbase.py:165(parse_comment)
+     2689    0.003    0.000    0.004    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:523(string_container)
+        2    0.000    0.000    0.004    0.002 /usr/lib/python3.12/encodings/__init__.py:71(search_function)
+        2    0.000    0.000    0.004    0.002 {built-in method builtins.__import__}
+      3/2    0.000    0.000    0.004    0.002 <frozen importlib._bootstrap>:1349(_find_and_load)
+      3/2    0.000    0.000    0.004    0.002 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+     5627    0.003    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2062(descendants)
+      3/2    0.000    0.000    0.003    0.002 <frozen importlib._bootstrap>:911(_load_unlocked)
+      118    0.000    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:241(handle_comment)
+     2703    0.002    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1371(is_empty_element)
+    59/57    0.000    0.000    0.003    0.000 {method 'encode' of 'str' objects}
+     2717    0.002    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:773(handle_data)
+      3/2    0.000    0.000    0.003    0.002 <frozen importlib._bootstrap_external>:989(exec_module)
+3874/3872    0.002    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2203(_normalize_search_value)
+        1    0.000    0.000    0.003    0.003 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:219(create_urllib3_context)
+       55    0.000    0.000    0.003    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:90(handle_startendtag)
+     5513    0.003    0.000    0.003    0.000 {method 'start' of 're.Match' objects}
+      6/4    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+      3/2    0.000    0.000    0.003    0.001 {built-in method builtins.exec}
+        1    0.000    0.000    0.002    0.002 /usr/lib/python3.12/ssl.py:430(__new__)
+       52    0.000    0.000    0.002    0.000 /usr/lib/python3.12/re/__init__.py:226(compile)
+       52    0.000    0.000    0.002    0.000 /usr/lib/python3.12/re/__init__.py:280(_compile)
+        1    0.000    0.000    0.002    0.002 /usr/lib/python3.12/encodings/idna.py:1(<module>)
+     4630    0.002    0.000    0.002    0.000 {built-in method _abc._abc_instancecheck}
+        3    0.000    0.000    0.002    0.001 /usr/lib/python3.12/re/_compiler.py:740(compile)
+5768/5761    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+     3550    0.002    0.000    0.002    0.000 {method 'join' of 'str' objects}
+     9330    0.002    0.000    0.002    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1586(__bool__)
+     2710    0.002    0.000    0.002    0.000 {method 'endswith' of 'str' objects}
+     2704    0.002    0.000    0.002    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:205(can_be_empty_element)
+      897    0.001    0.000    0.002    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      879    0.001    0.000    0.002    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1543(get)
+     2751    0.001    0.000    0.001    0.000 {method 'strip' of 'str' objects}
+       51    0.000    0.000    0.001    0.000 /usr/lib/python3.12/html/parser.py:123(set_cdata_mode)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.12/re/_compiler.py:573(_code)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/http/client.py:231(_parse_header_lines)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/email/parser.py:56(parsestr)
+     2587    0.001    0.000    0.001    0.000 {method 'keys' of 'dict' objects}
+        8    0.000    0.000    0.001    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:182(handle_charref)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.12/email/parser.py:41(parse)
+     2704    0.001    0.000    0.001    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:453(set_up_substitutions)
+     2703    0.001    0.000    0.001    0.000 /usr/lib/python3.12/_markupbase.py:36(getpos)
+       13    0.000    0.000    0.001    0.000 {method 'decode' of 'bytearray' objects}
+     2763    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+      897    0.001    0.000    0.001    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+     1902    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.12/email/feedparser.py:171(feed)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1062(get_code)
+     2558    0.001    0.000    0.001    0.000 /usr/lib/python3.12/html/parser.py:127(clear_cdata_mode)
+        6    0.001    0.000    0.001    0.000 /usr/lib/python3.12/re/_compiler.py:243(_optimize_charset)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.12/re/_compiler.py:511(_compile_info)
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.12/email/feedparser.py:176(_call_parse)
+     1821    0.001    0.000    0.001    0.000 {built-in method builtins.chr}
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.12/email/feedparser.py:216(_parsegen)
+      7/3    0.000    0.000    0.001    0.000 /usr/lib/python3.12/re/_compiler.py:37(_compile)
+      898    0.001    0.000    0.001    0.000 /usr/lib/python3.12/socket.py:732(readable)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+       34    0.000    0.000    0.001    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2155(__init__)
+       37    0.000    0.000    0.001    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:273(get_text)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:969(parse)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1520(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1491(_get_spec)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:452(_parse_sub)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:751(_compile_bytecode)
+      899    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1593(find_spec)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:367(parse_url)
+        3    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+      833    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:369(request)
+       74    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1417(_all_strings)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:276(connection_from_host)
+     1796    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:1083(_checkClosed)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:305(connection_from_context)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:512(_parse)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:726(__call__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:240(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:330(connection_from_pool_key)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:469(_parse_headers)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1183(get_data)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:335(extend)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1129(__new__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:100(push)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1551(__or__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:229(_new_pool)
+        6    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:227(_encode_invalid_chars)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:980(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:175(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:1(<module>)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+       10    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/stringprep.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1414(_missing_)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:256(_get_conn)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:335(putrequest)
+     18/6    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+     18/6    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1136(putrequest)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:494(get)
+        3    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:1044(_new_conn)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:482(cache_from_source)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:596(get_content_type)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:1194(__instancecheck__)
+        3    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/_policybase.py:301(header_source_parse)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:1465(__subclasscheck__)
+        3    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:355(putheader)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1320(endheaders)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:137(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       53    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:202(__get__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1562(__and__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1082(_send_output)
+       99    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/_policybase.py:319(header_fetch_parse)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:611(_get_cached)
+        4    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:301(_normalize_host)
+       71    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:387(_last_descendant)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:620(get_content_maintype)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1027(send)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:100(_intenum_converter)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:484(reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:483(items)
+       23    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/html/parser.py:256(parse_html_declaration)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:566(__init__)
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/_policybase.py:289(_sanitize_header)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:386(_mk_bitmap)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:122(put)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:349(_encode_target)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:127(__next__)
+       24    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:300(add)
+        4    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:1200(sendall)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:52(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1292(putheader)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:182(close)
+        6    0.000    0.000    0.000    0.000 <frozen _collections_abc>:804(get)
+       34    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:2422(__init__)
+        6    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/financial_enhanced.py:37(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:261(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:250(handle_decl)
+       33    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1544(_get_value)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:556(options)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:132(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:141(__exit__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1588(_get_spec)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:168(__getitem__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/__init__.py:43(normalize_encoding)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:425(_close_conn)
+      7/3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:178(getwidth)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1394(_iter_member_by_value_)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+       81    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:1173(send)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:294(_put_conn)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:77(readline)
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:261(get)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:304(makefile)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:221(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:316(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:95(_default_key_normalizer)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(path_stats)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:1517(debug)
+        5    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        7    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:222(handle_entityref)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:34(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+       31    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/utils.py:52(_has_surrogates)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:802(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:46(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:61(lookup)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:865(__init__)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:263(_remove_path_dot_segments)
+       35    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:14(decode)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:155(encode)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:670(verify_mode)
+        9    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:330(_idna_encode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:1790(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:504(set_alpn_protocols)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:441(_encode_hostname)
+       51    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:1292(value)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:1145(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:542(minimum_version)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:770(close)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:243(get_payload)
+       11    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/util.py:19(to_str)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:464(is_ipaddress)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:298(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:511(set_raw)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:216(_compile_charset)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:436(_get_literal_prefix)
+       59    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:240(__next)
+       20    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:396(_check_close)
+      108    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:666(_classify_pyc)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:100(__new__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/connection.py:93(_set_socket_options)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       22    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:176(append)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:29(_splitparam)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:685(_init_length)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:391(_bytes_to_codes)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:346(_get_timeout)
+        4    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:699(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:154(get)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/weakref.py:568(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/html/parser.py:86(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/threading.py:394(notify)
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/threading.py:277(__init__)
+       28    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       51    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1624(__eq__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:308(getregentry)
+        3    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:109(__init__)
+        7    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:33(getregentry)
+        3    0.000    0.000    0.000    0.000 <frozen _collections_abc>:549(__subclasshook__)
+       25    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:398(_simple)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.12/enum.py:117(_iter_bits_lsb)
+        1    0.000    0.000    0.000    0.000 <frozen os>:680(__getitem__)
+        5    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:163(host)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:516(family)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:299(helper)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:188(clone)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:257(__getitem__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:172(from_float)
+       24    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen _collections_abc>:104(_check_methods)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:741(_error_catcher)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:94(__new__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:1092(closed)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:164(__len__)
+        8    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+        3    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:180(resolve_cert_reqs)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/retry.py:387(is_retry)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/request.py:191(body_to_chunks)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:231(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/collections/__init__.py:595(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:681(__init__)
+        2    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:100(__setitem__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/threading.py:299(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+        6    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+       42    0.000    0.000    0.000    0.000 /usr/lib/python3.12/collections/__init__.py:609(__missing__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/threading.py:314(_is_owned)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:132(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:506(detach)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:69(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/html/parser.py:96(reset)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:293(tell)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:643(_check_name_wrapper)
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:150(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:121(pushlines)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:450(_init_decoder)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:404(<genexpr>)
+       24    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:288(__subclasshook__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:407(_generate_overlap_table)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+        3    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:126(resolve_default_timeout)
+        6    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:357(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:195(_new_message)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/threading.py:302(__exit__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:139(__init__)
+       25    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_collections.py:93(__getitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/contextlib.py:104(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1064(_output)
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:522(type)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:372(_escape)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:947(_wrap_ipv6)
+       16    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:256(match)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:449(_uniq)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:570(isstring)
+       16    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:245(read_timeout)
+        1    0.000    0.000    0.000    0.000 <frozen os>:762(encode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/html/parser.py:113(close)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:404(retries)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:392(inner)
+       13    0.000    0.000    0.000    0.000 <frozen _collections_abc>:435(__subclasshook__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/retry.py:379(_is_method_retryable)
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:248(_qsize)
+        5    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:469(_decode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:251(_put)
+        7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:202(start_connect)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:953(fix_flags)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:83(groups)
+        6    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        9    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        6    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:678(verify_mode)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:245(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/socket.py:490(_decref_socketios)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:234(_acquireLock)
+        4    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1263(_encode_request)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1469(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:570(hostname_checks_common_name)
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:1776(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_build}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:560(options)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:211(is_multipart)
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/request.py:136(set_file_position)
+        9    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:130(_validate_timeout)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:374(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:101(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1284(_validate_host)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:113(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:243(_releaseLock)
+        6    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:254(_get)
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:428(_get_iscased)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        9    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/parser.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1267(_validate_method)
+        3    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:344(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/url.py:121(request_uri)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:77(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/message.py:331(set_payload)
+        3    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:351(get_redirect_location)
+        4    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/connection.py:103(allowed_gai_family)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:1276(_validate_path)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_compiler.py:467(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        3    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:323(prepare_markup)
+        1    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x787433ff7240}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:453(isclosed)
+        3    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        3    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:208(_pop_message)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:306(proxy_is_forwarding)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:554(_initialize_xml_detector)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/_markupbase.py:27(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:9(Codec)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/_markupbase.py:32(reset)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:154(Codec)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/retry.py:270(from_int)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.12/re/_parser.py:172(__setitem__)
+        3    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/timeout.py:227(connect_timeout)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:574(_root_tag_encountered)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:641(release_conn)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/ssl_.py:203(resolve_ssl_version)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:292(is_closed)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/queue.py:245(_init)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1153(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:313(proxy_is_tunneling)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/element.py:1590(__setitem__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:986(create_module)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/logging/__init__.py:1369(disable)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1178(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/_request_methods.py:51(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:21(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/http/client.py:924(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/poolmanager.py:396(_proxy_requires_url_absolute_form)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:226(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connection.py:182(host)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:17(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:659(data)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:261(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/collections/__init__.py:669(update)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/response.py:499(_flush_decoder)
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x787433ff6660}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:25(StreamWriter)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:189(initialize_soup)
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/__init__.py:211(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/typing.py:2154(cast)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/bs4/builder/__init__.py:197(reset)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.12/email/feedparser.py:124(__iter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/ssl.py:1087(_check_connected)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:300(StreamWriter)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/connectionpool.py:337(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/cp1252.py:28(StreamReader)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.12/encodings/idna.py:303(StreamReader)
+        1    0.000    0.000    0.000    0.000 /home/elisei/programs_21/DS_ML/DS_Bootcamp.Day03-1/src/ex04/helenwav/lib/python3.12/site-packages/urllib3/util/proxy.py:11(connection_requires_http_tunnel)
+
+
